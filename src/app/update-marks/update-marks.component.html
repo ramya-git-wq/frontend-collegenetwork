@@ -1,0 +1,58 @@
+<h2>Update data:</h2>
+
+<form class="form-horizontal">
+
+ 
+
+<div class="form-group">
+
+    <label class="control-label col-sm-2" for="name">Name:</label>
+
+    <div class="col-sm-10">
+
+    <input type="text" class="form-control" id="name"
+
+    name="name" [(ngModel)]="model2.name" placeholder="Enter your name">
+
+    </div>
+
+</div>
+
+<div class="form-group">
+
+  <label class="control-label col-sm-2" for="name">marks:</label>
+
+  <div class="col-sm-10">
+
+  <input type="number" class="form-control" id="marks"
+
+  name="marks" [(ngModel)]="model2.marks" placeholder="Enter marks">
+
+  </div>
+
+</div>
+<div class="form-group">
+
+    <label class="control-label col-sm-2" for="position">Department:</label>
+
+    <div class="col-sm-10">
+
+    <input type="text" class="form-control" id="department"
+
+    name="department" [(ngModel)]="model2.department" placeholder="Enter department">
+
+    </div>
+
+</div>
+
+
+
+<div class="form-group">
+
+    <div class="col-sm-offset-2 col-sm-10">
+
+    <button type="submit" class="btn btn-default" (click)="updateStudent()">Update</button>
+
+    </div>
+
+</div>
